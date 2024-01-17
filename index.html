@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            letter-spacing: 1.5px;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(113, 84, 84);
+        }
+
+        li {
+            padding: 5px 6px;
+            margin: 1rem;
+            height: 48px;
+            font-size: large;
+        }
+
+        .main-text {
+            top: 22%;
+            right: 9%;
+            position: absolute;
+            font-weight: bolder;
+            font-size: xxx-large;
+            color: red;
+            margin: 100px 50px;
+
+        }
+
+        .gap {
+            height: 7px;
+            width: auto;
+            background-color: grey;
+        }
+
+        .btn-register {
+            /* margin: 2px; */
+            border-radius: 5px;
+            height: 45px;
+            width: auto;
+            position: absolute;
+            right: 43%;
+            color: green;
+            background-color: red;
+            /* font-weight: 500; */
+            font-size: medium;
+        }
+        
+        /* button design */
+        .button-71 {
+            margin: 17px;
+            background-color: #0078d0;
+            border: 0;
+            right: -43%;
+            border-radius: 56px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            outline: 0;
+            padding: 16px 21px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: all .3s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-71:before {
+            background-color: initial;
+            background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+            border-radius: 125px;
+            content: "";
+            height: 50%;
+            left: 4%;
+            opacity: .5;
+            position: absolute;
+            top: 0;
+            transition: all .3s;
+            width: 92%;
+        }
+
+        .button-71:hover {
+            box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+            transform: scale(1.05);
+        }
+
+        @media (min-width: 768px) {
+            .button-71 {
+                padding: 16px 48px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</li></a>
+            <li><a href="#">About Us</li></a>
+            <li><a href="#">Contact Us</li></a>
+            <li><a href="#">Regestration</li></a>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <img src="./src/arrangement-different-medals.jpg" height="600px" width="100%" alt="">
+            <div class="main-text">
+                <h1>Sportivo v12.o</h1>
+                <h3>Tecb annual sports compition</h3>
+                <div class="gap"></div>
+                <button class="button-71" role="button">Register Now</button>
+            </div>
+            <div class="gap"></div>
+        </div>
+
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
